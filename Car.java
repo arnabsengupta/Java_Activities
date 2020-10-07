@@ -1,5 +1,7 @@
 package session1;
 
+// comment note added in Car class by Vijay Moyalan
+
 public class Car {
     //Class Member Variables
     String color;
@@ -7,16 +9,18 @@ public class Car {
     String transmission;
     int tyres;
     int doors;
-	
+    String modelNumber;
+
     //Constructor
-    Car(int tyres, int doors) {
+    Car(int tyres, int doors, String modelNumber) {
+        this.modelNumber = modelNumber;
     	this.tyres = tyres;
     	this.doors = doors;
     }
 
     Car() {
     	this.tyres = 4;
-    	this.doors = 4;
+    	this.doors = 5;
     }
 
     //Class Methods
