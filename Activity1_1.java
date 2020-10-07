@@ -2,6 +2,7 @@ package session1;
 
 public class Activity1_1 {
 
+	//added a comment
     public static void main(String[] args) {
 	    // Object initialization
 	    Car toyota = new Car();
@@ -15,7 +16,7 @@ public class Activity1_1 {
 		toyota.accelerate();
 		toyota.brake();
 	    
-	    //made changes
+	    
     }
 
 }
