@@ -6,7 +6,7 @@ public class Activity1_1 {
 	    // Object initialization
 	    Car toyota = new Car();
 		// Add default values
-	    toyota.make = 2015;
+	    toyota.make = 2018;
 	    toyota.color = "White";
 	    toyota.transmission = "Manual";
 	    toyota.modelNumber = "qpri134";
