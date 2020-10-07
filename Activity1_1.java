@@ -14,6 +14,8 @@ public class Activity1_1 {
 		toyota.displayCharacterstics();
 		toyota.accelerate();
 		toyota.brake();
+	    
+	    //made changes
     }
 
 }
